@@ -1,0 +1,5 @@
+@media print {
+#noImprimir, .noImprimir, .DTTT_container, #miTabla_paginate, .dataTables_length, .dataTables_filter, #resultado, #conten, #mostrar, #ocultar, #tabla_paginate, .dataTables_info, br, form, input, footer{display:none;}
+.noImprimir sorting {display:none;}
+#scrollTabla{overflow: inherit; margin: auto;}
+}

@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2015, 11:55:12 AM
+    Author     : Jonathan
+*/
+.align_center{
+    text-align: center;
+}
+body {
+  /* Location of the image */
+  background-image: url(../images/3.png);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+
+/*    background: -webkit-linear-gradient(#A8C9D0,#088196, #03546F); /* For Safari 5.1 to 6.0 */
+/*    background: -o-linear-gradient(#A8C9D0,#088196, #03546F); /* For Opera 11.1 to 12.0 */
+/*    background: -moz-linear-gradient(#A8C9D0,#088196, #03546F); /* For Firefox 3.6 to 15 */
+/*    background: linear-gradient(#A8C9D0,#088196, #03546F); /* Standard syntax (must be last) */
+height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../images/3.png);
+  }
+}
+
+.btnStyle{
+
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+html{
+  height: 100%;
+}
+label{
+  float: left;
+  width: 170px;
+  font-size: 14px;
+  padding-left: 10px;
+  margin: 5px 5px 2px 10px;
+}
+footer {
+  width: 100%;
+  height: 75px;
+  background: #0B486B;
+  color: #ffffff;
+  border-top: 2px solid #000;
+  bottom: 0;
+  position: relative;
+  margin-top: -300 auto 0; /* valor negativo del alto del footer */
+}
+
+#contenedorModulos{
+  width: 100%;
+  margin: auto;
+  height: auto;
+  min-height:100%;
+}
+#contenedorModulos:after{
+  width: 100%;
+  height:600px;
+  display:block;
+  clear:both;
+}
+#scrollTabla{
+  overflow: auto;
+}
+/*
+#contInforme{
+  background: #79BD9A;
+  border-radius: 20px;
+  border: 2px solid #3B8686;
+  padding: 10px 4px 30px 4px;
+  box-shadow: 10px 10px 5px #0B486B;
+}*/

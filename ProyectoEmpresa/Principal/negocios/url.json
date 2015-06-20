@@ -1,0 +1,27 @@
+{ 
+
+"Empleados":					"../empleado/fEmpleado.php",
+"Productos":					"../producto/fProducto.php",
+"Categoria de Productos": 		"../categoriaProducto/fCategoriaProducto.php",
+"Registro de Cosehas":			"../cosecha/fCosecha.php",
+"Unidades de Medida":			"../unidad/fUnidad.php",
+
+"Registrar Insumos":			"../insumo/fInsumo.php",
+"Entrada de Insumos":			"../entradaInsumo/fEntradaInsumo.php",
+"Salida de Insumos":			"../salidaInsumo/fSalidaInsumo.php",
+"Inventario de Insumos":		"../inventarioInsumo/fInventarioInsumo.php",
+"Proveedores":					"../provedor/fProvedor.php",
+
+"Registro de Herramientas": 	"../herramienta/fHerramienta.php",
+"Entrada de Herramientas":		"../herramienta/fEntradaHerramienta.php",
+"Salida de Herramientas":		"../salidaHerramienta/fSalidaHerramienta.php",
+"Inventario de Herramientas":	"../inventarioHerramienta/fInventarioHerramienta.php",
+"Prestamo de Herramientas":		"../PrestamoHerramienta/fPrestamoHerramienta.php",
+
+"Usuarios": 					"../usuario/fUsuario.php",
+"Puestos":						"../Puesto/fPuesto.php",
+"Registro de Jornada":			"../Horas/fHoras.php",
+"Planilla":						"../planilla/planilla.php"
+
+
+}
